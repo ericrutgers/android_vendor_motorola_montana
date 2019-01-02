@@ -916,6 +916,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib/mmi_touch.so:system/vendor/lib/mmi_touch.so \
     vendor/motorola/montana/proprietary/vendor/lib/mmi_vibrator.so:system/vendor/lib/mmi_vibrator.so \
     vendor/motorola/montana/proprietary/vendor/lib/mmi_wifi.so:system/vendor/lib/mmi_wifi.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libcamerabgprocservice.so:system/vendor/lib/libcamerabgprocservice.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libcamerabgproc-jni.so:system/vendor/lib/libcamerabgproc-jni.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libjustshoot.so:system/vendor/lib/libjustshoot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libjscore.so:system/vendor/lib/libjscore.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libmorpho_image_stabilizer4.so:system/vendor/lib/libmorpho_image_stabilizer4.so \
     vendor/motorola/montana/proprietary/vendor/lib/motcamera.device@1.0-impl.so:/system/vendor/lib/motcamera.device@1.0-impl.so \
     vendor/motorola/montana/proprietary/vendor/lib/motorola.hardware.camera.device@1.0.so:/system/vendor/lib/motorola.hardware.camera.device@1.0.so \
     vendor/motorola/montana/proprietary/vendor/lib/motorola.hardware.camera.device@1.0_vendor.so:/system/vendor/lib/motorola.hardware.camera.device@1.0_vendor.so \
