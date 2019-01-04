@@ -708,6 +708,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/motorola/montana/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
     vendor/motorola/montana/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libS5k2l7Pdaf.so:system/vendor/lib/libS5k2l7Pdaf.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libS5k2l7PdafCamif.so:system/vendor/lib/libS5k2l7PdafCamif.so \
     vendor/motorola/montana/proprietary/vendor/lib/libSampleAuthJNI.so:system/vendor/lib/libSampleAuthJNI.so \
     vendor/motorola/montana/proprietary/vendor/lib/libSampleExtAuthJNI.so:system/vendor/lib/libSampleExtAuthJNI.so \
     vendor/motorola/montana/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
