@@ -549,6 +549,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_dbg.so:system/vendor/lib/libmmcamera_dbg.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_dcrf_lib.so:system/vendor/lib/libmmcamera_dcrf_lib.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_dummyalgo.so:system/vendor/lib/libmmcamera_dummyalgo.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_dw9763_eeprom.so:system/vendor/lib/libmmcamera_dw9763_eeprom.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_dw9767_eeprom.so:system/vendor/lib/libmmcamera_dw9767_eeprom.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_eebinparse.so:system/vendor/lib/libmmcamera_eebinparse.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_eeprom_util.so:system/vendor/lib/libmmcamera_eeprom_util.so \
@@ -597,10 +598,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_llvd.so:system/vendor/lib/libmmcamera_llvd.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_mot_imx214.so:system/vendor/lib/libmmcamera_mot_imx214.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_mot_imx258.so:system/vendor/lib/libmmcamera_mot_imx258.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_mot_imx258_bear.so:system/vendor/lib/libmmcamera_mot_imx258_bear.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_mot_imx258_mono.so:system/vendor/lib/libmmcamera_mot_imx258_mono.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_mot_imx362.so:system/vendor/lib/libmmcamera_mot_imx362.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_mot_ov5695.so:system/vendor/lib/libmmcamera_mot_ov5695.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_mot_s5k2l7.so:system/vendor/lib/libmmcamera_mot_s5k2l7.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_mot_s5k2l7sa.so:system/vendor/lib/libmmcamera_mot_s5k2l7sa.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_mot_s5k3l8_bear.so:system/vendor/lib/libmmcamera_mot_s5k3l8_bear.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_mot_s5k3l8_mono.so:system/vendor/lib/libmmcamera_mot_s5k3l8_mono.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_ov5693.so:system/vendor/lib/libmmcamera_ov5693.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_ov5693_eeprom.so:system/vendor/lib/libmmcamera_ov5693_eeprom.so \
