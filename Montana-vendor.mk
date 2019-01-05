@@ -95,7 +95,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/etc/permissions/qti_permissions.xml:system/vendor/etc/permissions/qti_permissions.xml \
     vendor/motorola/montana/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/motorola/montana/proprietary/framework/com.qualcomm.qti.imscmservice@1.0-java.jar:system/framework/com.qualcomm.qti.imscmservice@1.0-java.jar \
-    vendor/motorola/montana/proprietary/lib/hw/camera.vendor.msm8937.so:system/lib/hw/camera.vendor.msm8937.so \
     vendor/motorola/montana/proprietary/lib/hw/fingerprint.msm8937.so:system/vendor/lib/hw/fingerprint.vendor.msm8937.so \
     vendor/motorola/montana/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/motorola/montana/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
@@ -131,7 +130,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:system/lib64/vendor.qti.hardware.perf@1.0.so \
     vendor/motorola/montana/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/motorola/montana/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
-    vendor/motorola/montana/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
+    vendor/motorola/montana/proprietary/vendor/bin/mm-qcamera-app:system/vendor/bin/mm-qcamera-app \
+	vendor/motorola/montana/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/motorola/montana/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
     vendor/motorola/montana/proprietary/vendor/bin/ATFWD-daemon:system/vendor/bin/ATFWD-daemon \
     vendor/motorola/montana/proprietary/vendor/bin/adspd:system/vendor/bin/adspd \
@@ -177,7 +177,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/bin/xtra-daemon:system/vendor/bin/xtra-daemon \
     vendor/motorola/montana/proprietary/vendor/bin/xtwifi-client:system/vendor/bin/xtwifi-client \
     vendor/motorola/montana/proprietary/vendor/bin/xtwifi-inet-agent:system/vendor/bin/xtwifi-inet-agent \
-    vendor/motorola/montana/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
+	vendor/motorola/montana/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/motorola/montana/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/motorola/montana/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml \
     vendor/motorola/montana/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml \
@@ -217,10 +217,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/motorola/montana/proprietary/vendor/lib/hw/gatekeeper.msm8937.so:system/vendor/lib/hw/gatekeeper.msm8937.so \
     vendor/motorola/montana/proprietary/vendor/lib/hw/keystore.msm8937.so:system/vendor/lib/hw/keystore.msm8937.so \
+    vendor/motorola/montana/proprietary/vendor/lib/hw/motorola.hardware.camera.provider@2.4-impl.so:/system/vendor/lib/hw/motorola.hardware.camera.provider@2.4-impl.so \
     vendor/motorola/montana/proprietary/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so:system/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so \
     vendor/motorola/montana/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/motorola/montana/proprietary/vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so \
     vendor/motorola/montana/proprietary/vendor/lib/hw/vulkan.msm8937.so:system/vendor/lib/hw/vulkan.msm8937.so \
+	vendor/motorola/montana/proprietary/vendor/lib/hw/camera.msm8937.so:system/vendor/lib/hw/camera.msm8937.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmot_lux_standardization.so:system/vendor/lib/libmot_lux_standardization.so \
     vendor/motorola/montana/proprietary/vendor/lib/lib_motsensorlistener.so:system/lib/lib_motsensorlistener.so \
     vendor/motorola/montana/proprietary/vendor/lib/libactuator_dw9718s.so:system/vendor/lib/libactuator_dw9718s.so \
@@ -547,6 +549,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_dbg.so:system/vendor/lib/libmmcamera_dbg.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_dcrf_lib.so:system/vendor/lib/libmmcamera_dcrf_lib.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_dummyalgo.so:system/vendor/lib/libmmcamera_dummyalgo.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_dw9763_eeprom.so:system/vendor/lib/libmmcamera_dw9763_eeprom.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_dw9767_eeprom.so:system/vendor/lib/libmmcamera_dw9767_eeprom.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_eebinparse.so:system/vendor/lib/libmmcamera_eebinparse.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_eeprom_util.so:system/vendor/lib/libmmcamera_eeprom_util.so \
@@ -595,10 +598,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_llvd.so:system/vendor/lib/libmmcamera_llvd.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_mot_imx214.so:system/vendor/lib/libmmcamera_mot_imx214.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_mot_imx258.so:system/vendor/lib/libmmcamera_mot_imx258.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_mot_imx258_bear.so:system/vendor/lib/libmmcamera_mot_imx258_bear.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_mot_imx258_mono.so:system/vendor/lib/libmmcamera_mot_imx258_mono.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_mot_imx362.so:system/vendor/lib/libmmcamera_mot_imx362.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_mot_ov5695.so:system/vendor/lib/libmmcamera_mot_ov5695.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_mot_s5k2l7.so:system/vendor/lib/libmmcamera_mot_s5k2l7.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_mot_s5k2l7sa.so:system/vendor/lib/libmmcamera_mot_s5k2l7sa.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_mot_s5k3l8_bear.so:system/vendor/lib/libmmcamera_mot_s5k3l8_bear.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_mot_s5k3l8_mono.so:system/vendor/lib/libmmcamera_mot_s5k3l8_mono.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_ov5693.so:system/vendor/lib/libmmcamera_ov5693.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_ov5693_eeprom.so:system/vendor/lib/libmmcamera_ov5693_eeprom.so \
@@ -706,6 +713,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/motorola/montana/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
     vendor/motorola/montana/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libS5k2l7Pdaf.so:system/vendor/lib/libS5k2l7Pdaf.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libS5k2l7PdafCamif.so:system/vendor/lib/libS5k2l7PdafCamif.so \
     vendor/motorola/montana/proprietary/vendor/lib/libSampleAuthJNI.so:system/vendor/lib/libSampleAuthJNI.so \
     vendor/motorola/montana/proprietary/vendor/lib/libSampleExtAuthJNI.so:system/vendor/lib/libSampleExtAuthJNI.so \
     vendor/motorola/montana/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
@@ -914,6 +923,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib/mmi_touch.so:system/vendor/lib/mmi_touch.so \
     vendor/motorola/montana/proprietary/vendor/lib/mmi_vibrator.so:system/vendor/lib/mmi_vibrator.so \
     vendor/motorola/montana/proprietary/vendor/lib/mmi_wifi.so:system/vendor/lib/mmi_wifi.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libcamerabgprocservice.so:system/vendor/lib/libcamerabgprocservice.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libcamerabgproc-jni.so:system/vendor/lib/libcamerabgproc-jni.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libjustshoot.so:system/vendor/lib/libjustshoot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libjscore.so:system/vendor/lib/libjscore.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libmorpho_image_stabilizer4.so:system/vendor/lib/libmorpho_image_stabilizer4.so \
     vendor/motorola/montana/proprietary/vendor/lib/motcamera.device@1.0-impl.so:/system/vendor/lib/motcamera.device@1.0-impl.so \
     vendor/motorola/montana/proprietary/vendor/lib/motorola.hardware.camera.device@1.0.so:/system/vendor/lib/motorola.hardware.camera.device@1.0.so \
     vendor/motorola/montana/proprietary/vendor/lib/motorola.hardware.camera.device@1.0_vendor.so:/system/vendor/lib/motorola.hardware.camera.device@1.0_vendor.so \
@@ -929,8 +943,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib/vendor.qti.hardware.iop@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.iop@1.0_vendor.so \
     vendor/motorola/montana/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so \
     vendor/motorola/montana/proprietary/vendor/lib/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so \
-    vendor/motorola/montana/proprietary/vendor/lib/libHu.so:system/vendor/lib/libHu.so \
-    vendor/motorola/montana/proprietary/vendor/lib/libHui.so:system/vendor/lib/libHui.so \
     vendor/motorola/montana/proprietary/vendor/lib64/libdiag_system.so:system/vendor/lib64/libdiag_system.so \
     vendor/motorola/montana/proprietary/vendor/lib64/libqmi_cci_system.so:system/vendor/lib64/libqmi_cci_system.so \
     vendor/motorola/montana/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
@@ -940,7 +952,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib64/sensors.rp.so:system/vendor/lib64/sensors.rp.so \
     vendor/motorola/montana/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
     vendor/motorola/montana/proprietary/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so:system/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so \
-    vendor/motorola/montana/proprietary/vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so:system/vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so \
+	vendor/motorola/montana/proprietary/vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so:system/vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so \
     vendor/motorola/montana/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so:system/vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so \
     vendor/motorola/montana/proprietary/vendor/lib64/com.quicinc.cne.api@1.0.so:system/vendor/lib64/com.quicinc.cne.api@1.0.so \
     vendor/motorola/montana/proprietary/vendor/lib64/com.quicinc.cne.constants@1.0.so:system/vendor/lib64/com.quicinc.cne.constants@1.0.so \
