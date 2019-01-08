@@ -77,6 +77,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:system/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
     vendor/motorola/montana/proprietary/etc/permissions/ConnectivityExt.xml:system/vendor/etc/permissions/ConnectivityExt.xml \
     vendor/motorola/montana/proprietary/etc/permissions/cneapiclient.xml:system/vendor/etc/permissions/cneapiclient.xml \
+    vendor/motorola/montana/proprietary/etc/permissions/com.motorola.camerabgproc_library.xml:system/etc/permissions/com.motorola.camerabgproc_library.xml \
     vendor/motorola/montana/proprietary/etc/permissions/com.motorola.cameraone.xml:system/vendor/etc/permissions/com.motorola.cameraone.xml \
     vendor/motorola/montana/proprietary/etc/permissions/com.motorola.hardware.dtv.xml:system/vendor/etc/permissions/com.motorola.hardware.dtv.xml \
     vendor/motorola/montana/proprietary/etc/permissions/com.qti.dpmframework.xml:system/vendor/etc/permissions/com.qti.dpmframework.xml \
@@ -85,11 +86,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/vendor/etc/permissions/com.qualcomm.location.vzw_library.xml \
     vendor/motorola/montana/proprietary/etc/permissions/com.qualcomm.location.xml:system/vendor/etc/permissions/com.qualcomm.location.xml \
     vendor/motorola/montana/proprietary/etc/permissions/com.quicinc.cne.xml:system/vendor/etc/permissions/com.quicinc.cne.xml \
+    vendor/motorola/montana/proprietary/etc/permissions/deviceowner-configuration-com.motorola.cameraone.xml:system/etc/permissions/deviceowner-configuration-com.motorola.cameraone.xml \
     vendor/motorola/montana/proprietary/etc/permissions/embms.xml:system/vendor/etc/permissions/embms.xml \
     vendor/motorola/montana/proprietary/etc/permissions/ims.xml:system/vendor/etc/permissions/ims.xml \
     vendor/motorola/montana/proprietary/etc/permissions/imscm.xml:system/vendor/etc/permissions/imscm.xml \
     vendor/motorola/montana/proprietary/etc/permissions/izat.xt.srv.xml:system/vendor/etc/permissions/izat.xt.srv.xml \
     vendor/motorola/montana/proprietary/etc/permissions/mot_dtv_permissions.xml:system/vendor/etc/permissions/mot_dtv_permissions.xml \
+    vendor/motorola/montana/proprietary/etc/permissions/privapp-permissions-com.motorola.cameraone.xml:system/etc/permissions/privapp-permissions-com.motorola.cameraone.xml \
     vendor/motorola/montana/proprietary/etc/permissions/qcrilhook.xml:system/vendor/etc/permissions/qcrilhook.xml \
     vendor/motorola/montana/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/vendor/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/motorola/montana/proprietary/etc/permissions/qti_permissions.xml:system/vendor/etc/permissions/qti_permissions.xml \
@@ -103,7 +106,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
     vendor/motorola/montana/proprietary/lib/libcom_fingerprints_service.so:system/lib/libcom_fingerprints_service.so \
     vendor/motorola/montana/proprietary/lib/libfamily_photo.so:system/lib/libfamily_photo.so \
+    vendor/motorola/montana/proprietary/lib/libjni_dualcamera.so:system/lib/libjni_dualcamera.so \
     vendor/motorola/montana/proprietary/lib/libjson.so:system/lib/libjson.so \
+    vendor/motorola/montana/proprietary/lib/libmbs.so:system/lib/libmbs.so \
     vendor/motorola/montana/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so \
     vendor/motorola/montana/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so \
     vendor/motorola/montana/proprietary/lib/libmot-qc-fd-offline.so:system/lib/libmot-qc-fd-offline.so \
@@ -1183,9 +1188,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/motorola/montana/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so \
     vendor/motorola/montana/proprietary/vendor/radio/qcril_database/qcril.db:system/vendor/radio/qcril_database/qcril.db
-	
 
 PRODUCT_PACKAGES += \
+    MotCamera \
 	CNEService \
 	ConnectivityExt \
 	DTVPlayer \
